@@ -1,0 +1,20 @@
+WORKER_PUB_KEY: YOUR_PUBLIC_KEY
+# specified in MINA
+# 1 MINA = 1,000,000,000 nanomina
+# examples 0.25 MINA = 250000000 nanomina
+WORKER_FEE: 0.25
+
+# how often to check `next proposal time` (seconds)
+CHECK_PERIOD_SEC: 120
+
+# the period after which the worker will be started again (minutes)
+STOP_WORKER_FOR_MIN: 15
+
+# how many minutes before 'next proposal' the worker will be turned off (minutes)
+STOP_WORKER_BEFORE_MIN: 10
+
+# ip address of graphql api (by default 127.0.0.1)
+GRAPHQL_HOST: 127.0.0.1
+
+# graphql port (by default 3085)
+GRAPHQL_PORT: 3085
